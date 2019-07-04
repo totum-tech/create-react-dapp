@@ -1,13 +1,13 @@
 {
-  "name": "create-react-app",
-  "version": "3.0.1",
+  "name": "@totum/create-react-dapp",
+  "version": "0.0.1",
   "keywords": [
     "react"
   ],
-  "description": "Create React apps with no build configuration.",
+  "description": "Create React dApps with no build configuration.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/totum-tech/create-react-dapp.git",
     "directory": "packages/create-react-app"
   },
   "license": "MIT",
@@ -15,7 +15,7 @@
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/totum-tech/create-react-dapp/issues"
   },
   "files": [
     "index.js",
