@@ -79,6 +79,13 @@ module.exports = function(proxy, allowedHost) {
     watchOptions: {
       ignored: ignoredFiles(paths.appSrc),
     },
+    // Enable CORS on devServer requests to support Blockstack Auth
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
+      'Access-Control-Allow-Headers':
+        'X-Requested-With, content-type, Authorization',
+    },
     // Enable HTTPS if the HTTPS environment variable is set to 'true'
     https: protocol === 'https',
     host,
